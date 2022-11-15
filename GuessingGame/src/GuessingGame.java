@@ -23,6 +23,7 @@ public class GuessingGame {
                     break;
                 }else if (i == 3) {
                     System.out.println("You've ran out of Tries");
+                    System.out.println("The Answer is: " + targetNumber);
                     break;
                 }else{
                     System.out.println("NOPE!!! Try Again!!!");
